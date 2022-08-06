@@ -1,0 +1,47 @@
+.container{
+  width: 1200px; 
+  margin: 0;
+  border: solid rebeccapurple;
+  max-width: 100%;
+  min-height: 400px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p{
+animation-name: slidein;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-play-state: running;
+
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+        color: blue;
+     }
+     75%{
+          font-size: 300%;
+          margin-left: 25%;
+          width: 150%;
+     }
+
+     
+     to{
+        margin-right: 0%;
+        width: 100%;
+        color: green;
+        font-weight: 75%;
+        font-stretch: expanded;
+     }
+}
+
+
